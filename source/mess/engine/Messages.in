@@ -1,0 +1,4 @@
+TR(ACTOR_LEVELED_UP,                                  Player,   INFO,     "%s leveled up!")
+TR(NEW_PLAYER_JOINED,                                 Everyone, NOTICE,   "player '%s' has joined the game")
+TR(PYTHON_EXCEPTION_THROWN,                           Master,   ERROR,    "Exception thrown calling Python function '%s'")
+TR(FATAL_PYTHON_EXCEPTION_THROWN,                     Everyone, CRITICAL, "Fatal exception thrown calling Python function '%s': %s")

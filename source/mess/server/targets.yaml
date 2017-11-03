@@ -1,0 +1,15 @@
+targets:
+  - target_name: mess_server
+    type: executable
+    dependencies:
+      - mess_game.a
+      - mess_engine.a
+      - mess_networking.a
+      - -lwcrypto
+      - -lcrypto
+      - -lboost_coroutine
+      - -lboost_python-py35
+      - -lpython3.5m
+      - -lboost_program_options
+      - -lboost_filesystem
+      - -lboost_system
