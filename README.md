@@ -1,9 +1,10 @@
 MESS Engine
 ===========
 
-Install dependencies
+Install dependencies (requires a relatively new version of clang too)
 
-    $ sudo apt-get install build-essential libboost-all-dev libssl-dev libpython3.5-dev
+    $ sudo apt-get install build-essential ninja-build libboost-all-dev libssl-dev libpython3.5-dev
+    $ sudo pip install PyYaml
 
 Setup
 
