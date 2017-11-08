@@ -9,6 +9,7 @@ mkdir -p build
 pushd build >/dev/null
 
 echo "Downloading configure.pyz..."
+rm -f configure.pyz
 wget https://github.com/nsubiron/configure-pyz/releases/download/v0.2.1/configure.pyz
 chmod u+x configure.pyz
 ./configure.pyz --version
